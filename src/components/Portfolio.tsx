@@ -6,21 +6,21 @@ const Portfolio = () => {
   const projects = [
     {
       image: project1,
-      title: "MINIMAL RESIDENCE",
-      location: "NEW YORK, 2024",
-      description: "A contemporary home focusing on light, space, and material honesty"
+      title: "RESIDENCIA MODERNA",
+      location: "2024",
+      description: "Vivienda contemporánea enfocada en luz, espacio y materiales de primera calidad"
     },
     {
       image: project2,
-      title: "CORPORATE HEADQUARTERS",
-      location: "LONDON, 2023",
-      description: "Modern office space emphasizing collaboration and natural elements"
+      title: "CENTRO EMPRESARIAL",
+      location: "2023",
+      description: "Edificio comercial que prioriza la colaboración y elementos naturales"
     },
     {
       image: project3,
-      title: "CULTURAL CENTER",
-      location: "TOKYO, 2023",
-      description: "Public architecture that bridges tradition with contemporary design"
+      title: "CENTRO CULTURAL",
+      location: "2023",
+      description: "Construcción pública que conecta la tradición con el diseño contemporáneo"
     }
   ];
 
@@ -29,9 +29,9 @@ const Portfolio = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
-            <h2 className="text-minimal text-muted-foreground mb-4">SELECTED WORK</h2>
+            <h2 className="text-minimal text-muted-foreground mb-4">PROYECTOS DESTACADOS</h2>
             <h3 className="text-4xl md:text-6xl font-light text-architectural">
-              Our Projects
+              Nuestros Proyectos
             </h3>
           </div>
           

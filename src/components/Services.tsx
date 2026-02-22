@@ -2,23 +2,23 @@ const Services = () => {
   const services = [
     {
       number: "01",
-      title: "RESIDENTIAL",
-      description: "Crafting homes that reflect individual lifestyles while maintaining architectural integrity"
+      title: "RESIDENCIAL",
+      description: "Construcción de viviendas que reflejan estilos de vida únicos con los más altos estándares de calidad"
     },
     {
       number: "02", 
-      title: "COMMERCIAL",
-      description: "Designing functional spaces that enhance business environments and user experiences"
+      title: "COMERCIAL",
+      description: "Edificaciones comerciales funcionales que potencian los negocios y la experiencia del usuario"
     },
     {
       number: "03",
-      title: "RENOVATION",
-      description: "Transforming existing structures with contemporary sensibilities and sustainable practices"
+      title: "REMODELACIÓN",
+      description: "Transformación de estructuras existentes con técnicas modernas y prácticas sostenibles"
     },
     {
       number: "04",
-      title: "CONSULTATION",
-      description: "Providing expert guidance on design direction, planning, and architectural solutions"
+      title: "OBRA CIVIL",
+      description: "Proyectos de infraestructura con precisión técnica y cumplimiento de los más altos estándares"
     }
   ];
 
@@ -27,9 +27,9 @@ const Services = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
-            <h2 className="text-minimal text-muted-foreground mb-4">SERVICES</h2>
+            <h2 className="text-minimal text-muted-foreground mb-4">SERVICIOS</h2>
             <h3 className="text-4xl md:text-6xl font-light text-architectural">
-              What We Do
+              Lo Que Hacemos
             </h3>
           </div>
           
