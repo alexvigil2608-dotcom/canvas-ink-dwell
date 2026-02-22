@@ -12,314 +12,159 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: "sustainable-architecture-future",
-    title: "The Future of Sustainable Architecture",
-    excerpt: "Exploring how modern architectural practices are evolving to meet environmental challenges while maintaining design excellence.",
+    id: "construccion-sostenible-futuro",
+    title: "El Futuro de la Construcción Sostenible",
+    excerpt: "Explorando cómo las prácticas constructivas modernas evolucionan para enfrentar los desafíos ambientales manteniendo la excelencia.",
     content: `
-# The Future of Sustainable Architecture
+# El Futuro de la Construcción Sostenible
 
-The architectural landscape is undergoing a profound transformation as we face the urgent need to address climate change and environmental degradation. Sustainable architecture is no longer a niche consideration—it has become the cornerstone of responsible design practice.
+El sector de la construcción está experimentando una transformación profunda ante la necesidad urgente de abordar el cambio climático. La construcción sostenible ya no es una consideración de nicho, se ha convertido en la piedra angular de la práctica responsable.
 
-## Defining Sustainable Architecture
+## Principios Clave del Diseño Sostenible
 
-Sustainable architecture encompasses more than just energy efficiency. It represents a holistic approach to building design that considers the entire lifecycle of a structure, from material sourcing to end-of-life disposal. This philosophy integrates environmental, social, and economic factors to create buildings that not only minimize their ecological footprint but also enhance the quality of life for their occupants.
+### Selección de Materiales
+La elección de materiales de construcción juega un papel crucial:
+- Materiales reciclados y reutilizados
+- Materiales de origen local para reducir emisiones de transporte
+- Materiales bio-basados como bambú, corcho y madera certificada
+- Materiales con baja energía incorporada
 
-## Key Principles of Sustainable Design
+### Eficiencia Energética
+Las edificaciones sostenibles modernas incorporan:
+- Principios de diseño solar pasivo
+- Sistemas de aislamiento de alto rendimiento
+- Tecnologías de construcción inteligente
+- Integración de energías renovables
 
-### Material Selection
-The choice of building materials plays a crucial role in sustainable architecture. Architects are increasingly turning to:
-- Recycled and upcycled materials
-- Locally sourced materials to reduce transportation emissions
-- Bio-based materials like bamboo, cork, and mycelium
-- Materials with low embodied energy
+### Gestión del Agua
+La construcción sostenible aborda la conservación del agua mediante:
+- Sistemas de captación de agua lluvia
+- Reciclaje de aguas grises
+- Paisajismo permeable
+- Instalaciones de bajo consumo
 
-### Energy Efficiency
-Modern sustainable buildings incorporate:
-- Passive solar design principles
-- High-performance insulation systems
-- Smart building technologies
-- Renewable energy integration
-- Natural ventilation strategies
+## Tendencias Emergentes
 
-### Water Management
-Sustainable architecture addresses water conservation through:
-- Rainwater harvesting systems
-- Greywater recycling
-- Permeable landscaping
-- Low-flow fixtures and appliances
+### Economía Circular
+Los constructores están comenzando a diseñar para el desmontaje, creando edificios que pueden ser fácilmente deconstruidos y sus materiales reutilizados en nuevos proyectos.
 
-## Emerging Trends
+### Edificios Carbono Neutro
+La próxima generación de construcciones sostenibles busca no solo minimizar las emisiones de carbono sino eliminarlas activamente de la atmósfera.
 
-The future of sustainable architecture is being shaped by several emerging trends:
+## Conclusión
 
-### Biophilic Design
-The integration of natural elements into built environments is gaining momentum. This approach recognizes the innate human connection to nature and seeks to incorporate natural light, ventilation, vegetation, and organic forms into architectural design.
-
-### Circular Economy Principles
-Architects are beginning to design for disassembly, creating buildings that can be easily deconstructed and their materials reused in new projects. This approach challenges the traditional linear model of construction and waste.
-
-### Carbon-Neutral and Carbon-Negative Buildings
-The next generation of sustainable buildings aims not just to minimize carbon emissions but to actively remove carbon from the atmosphere through innovative design and material choices.
-
-## Challenges and Opportunities
-
-While the path toward sustainable architecture presents challenges—including higher upfront costs, regulatory barriers, and the need for specialized knowledge—it also offers tremendous opportunities. These include reduced operational costs, improved occupant health and productivity, and the potential to create resilient communities that can adapt to changing environmental conditions.
-
-## Conclusion
-
-The future of architecture lies in our ability to create buildings that work in harmony with natural systems. As architects, we have the responsibility and the opportunity to design a built environment that supports both human well-being and planetary health. The transition to sustainable architecture is not just an environmental imperative—it is a creative challenge that will define the next era of architectural innovation.
+El futuro de la construcción radica en nuestra capacidad de crear edificios que funcionen en armonía con los sistemas naturales. La transición hacia la construcción sostenible es tanto un imperativo ambiental como un desafío creativo que definirá la próxima era de la innovación constructiva.
     `,
-    author: "Sarah Chen",
+    author: "Carlos Méndez",
     date: "2024-03-15",
-    readTime: "8 min read",
-    category: "SUSTAINABILITY",
+    readTime: "8 min",
+    category: "SOSTENIBILIDAD",
     image: "/src/assets/blog-sustainable-architecture.jpg"
   },
   {
-    id: "minimalism-modern-living",
-    title: "Minimalism in Modern Living Spaces",
-    excerpt: "How the principles of minimalist design are reshaping contemporary residential architecture and interior spaces.",
+    id: "tendencias-construccion-residencial",
+    title: "Tendencias en Construcción Residencial",
+    excerpt: "Cómo los principios de diseño moderno están transformando la construcción de viviendas contemporáneas.",
     content: `
-# Minimalism in Modern Living Spaces
+# Tendencias en Construcción Residencial
 
-In an era of overwhelming digital noise and material excess, minimalist architecture offers a sanctuary of calm and clarity. This design philosophy, rooted in the Japanese concept of "ma" (negative space) and Scandinavian functionality, has evolved into a defining characteristic of contemporary residential design.
+En una era de avance tecnológico constante, la construcción residencial ofrece nuevas posibilidades para crear hogares funcionales y eficientes. Las tendencias actuales priorizan la calidad de vida, la sostenibilidad y la innovación técnica.
 
-## The Philosophy Behind Minimalism
+## Elementos Clave
 
-Minimalist architecture is not about creating empty or stark spaces—it's about intentional design choices that prioritize function, beauty, and the essential elements of living. The approach emphasizes:
+### Materiales de Alta Calidad
+La paleta constructiva moderna incluye:
+- Concreto aparente de alta resistencia
+- Madera certificada y tratada
+- Acero y vidrio de última generación
+- Piedra natural y acabados premium
 
-- **Simplicity over complexity**
-- **Quality over quantity**
-- **Space over stuff**
-- **Light over ornament**
+### Tecnología Integrada
+Los hogares modernos incorporan:
+- Domótica y automatización
+- Sistemas de climatización eficientes
+- Iluminación LED inteligente
+- Seguridad integrada
 
-## Core Elements of Minimalist Design
+### Espacios Funcionales
+Cada metro cuadrado cuenta en el diseño residencial moderno:
+- Espacios abiertos y multifuncionales
+- Almacenamiento inteligente integrado
+- Conexión interior-exterior fluida
+- Áreas de trabajo desde casa
 
-### Clean Lines and Geometric Forms
-Minimalist architecture favors simple geometric shapes and clean lines. This creates a sense of order and tranquility that serves as a backdrop for daily life. The absence of decorative elements allows the architecture itself to become the focal point.
+## Sostenibilidad en la Vivienda
 
-### Natural Materials
-The minimalist palette typically includes:
-- Raw concrete
-- Natural wood
-- Steel and glass
-- Stone and marble
-- Neutral textiles
+La construcción residencial se alinea cada vez más con principios sostenibles:
+- **Reducción del consumo de materiales**
+- **Enfoque en durabilidad sobre tendencias**
+- **Eficiencia energética mediante diseño pasivo**
+- **Pensamiento a largo plazo**
 
-These materials are chosen for their inherent beauty and authenticity, often displayed in their natural state without excessive finishing or treatment.
+## Conclusión
 
-### Strategic Use of Light
-Natural light becomes a design element in minimalist spaces. Large windows, skylights, and glass walls not only illuminate the interior but create a connection with the outdoors. The interplay of light and shadow throughout the day adds depth and interest to otherwise simple surfaces.
-
-### Functional Furniture and Built-ins
-Every piece serves a purpose in minimalist design. Furniture is often built-in or carefully selected for both function and aesthetic value. Storage solutions are integrated seamlessly into the architecture, maintaining the clean lines while providing necessary functionality.
-
-## The Psychology of Minimalist Living
-
-Research in environmental psychology suggests that minimalist spaces can have profound effects on mental well-being:
-
-### Reduced Stress and Anxiety
-Clutter-free environments have been shown to reduce cortisol levels and promote feelings of calm and control.
-
-### Enhanced Focus and Productivity
-With fewer visual distractions, occupants often report improved concentration and mental clarity.
-
-### Greater Appreciation for Quality
-When surrounded by fewer but higher-quality items, people tend to develop a deeper appreciation for craftsmanship and design.
-
-## Challenges and Considerations
-
-### Storage Solutions
-One of the biggest challenges in minimalist design is providing adequate storage while maintaining clean aesthetics. This requires creative solutions such as:
-- Hidden storage compartments
-- Multi-functional furniture
-- Dedicated storage rooms or areas
-
-### Personalization
-Creating minimalist spaces that feel warm and personal requires careful curation of meaningful objects and artwork.
-
-### Maintenance
-Minimalist spaces can show wear and dirt more easily, requiring consistent maintenance to preserve their pristine appearance.
-
-## Minimalism and Sustainability
-
-The minimalist approach aligns naturally with sustainable design principles:
-- **Reduced material consumption**
-- **Focus on durability over trends**
-- **Energy efficiency through passive design**
-- **Long-term thinking over short-term aesthetics**
-
-## Conclusion
-
-Minimalism in modern living spaces represents more than just an aesthetic choice—it's a lifestyle philosophy that prioritizes intention, quality, and well-being. As our lives become increasingly complex, the simplicity and clarity of minimalist design offer a path toward more meaningful and sustainable ways of living.
-
-The challenge for architects and designers is to create minimalist spaces that feel alive and welcoming rather than cold or sterile. When executed thoughtfully, minimalist design can provide the perfect canvas for life's most important moments.
+La construcción residencial moderna representa más que una inversión — es la creación de espacios que mejoran la calidad de vida. El desafío para los constructores es crear viviendas que sean acogedoras, eficientes y duraderas.
     `,
-    author: "Marcus Rodriguez",
+    author: "Ana Rodríguez",
     date: "2024-03-10",
-    readTime: "6 min read",
-    category: "DESIGN",
+    readTime: "6 min",
+    category: "RESIDENCIAL",
     image: "/src/assets/blog-minimalist-living.jpg"
   },
   {
-    id: "urban-planning-community-spaces",
-    title: "Urban Planning and Community Spaces",
-    excerpt: "Examining the role of thoughtful urban planning in creating vibrant, inclusive communities through architectural design.",
+    id: "planificacion-urbana-espacios",
+    title: "Planificación Urbana y Espacios Comunitarios",
+    excerpt: "El rol de la planificación urbana en la creación de comunidades vibrantes e inclusivas a través de la construcción.",
     content: `
-# Urban Planning and Community Spaces
+# Planificación Urbana y Espacios Comunitarios
 
-The fabric of our cities is woven through the careful orchestration of public and private spaces, each contributing to the complex ecosystem of urban life. As populations continue to urbanize, the role of thoughtful urban planning and community-centered architectural design becomes increasingly critical in shaping livable, sustainable, and equitable cities.
+El tejido de nuestras ciudades se construye mediante la cuidadosa orquestación de espacios públicos y privados. A medida que las poblaciones se urbanizan, el papel de la planificación y construcción comunitaria se vuelve cada vez más crítico.
 
-## The Evolution of Urban Planning
+## La Evolución de la Construcción Urbana
 
-Urban planning has evolved from purely functional considerations—managing traffic flow, utilities, and zoning—to encompass broader goals of social equity, environmental sustainability, and community well-being. This shift recognizes that cities are not just collections of buildings and infrastructure, but complex social organisms that require careful nurturing.
+La construcción urbana ha evolucionado de consideraciones puramente funcionales a abarcar objetivos más amplios de equidad social, sostenibilidad ambiental y bienestar comunitario.
 
-### From Zoning to Place-Making
+### De la Zonificación a la Creación de Lugares
 
-Traditional zoning practices often created segregated, single-use districts that required extensive commuting and limited social interaction. Contemporary urban planning embraces mixed-use development and place-making strategies that:
+Las prácticas contemporáneas abrazan el desarrollo de uso mixto y estrategias que:
+- **Fomentan la caminabilidad y el ciclismo**
+- **Mezclan espacios residenciales, comerciales y de oficinas**
+- **Crean destinos, no solo desarrollos**
+- **Promueven la construcción comunitaria**
 
-- **Encourage walkability and cycling**
-- **Mix residential, commercial, and office spaces**
-- **Create destinations rather than just developments**
-- **Foster chance encounters and community building**
+## Construcción de Espacios Comunitarios
 
-## The Architecture of Community
+### Plazas Públicas
+Plazas bien construidas actúan como salones al aire libre que pueden albergar:
+- **Mercados y festivales**
+- **Reuniones informales**
+- **Juego infantil y socialización**
+- **Actividades cívicas**
 
-Community spaces serve as the living rooms of our cities—places where strangers become neighbors, where cultural exchange happens naturally, and where the social fabric of urban life is strengthened.
+### Centros Comunitarios
+Los centros comunitarios modernos se están convirtiendo en:
+- **Espacios flexibles adaptables**
+- **Centros tecnológicos**
+- **Lugares de aprendizaje continuo**
+- **Refugios durante emergencias**
 
-### Public Squares and Plazas
-Well-designed public squares act as outdoor rooms that can accommodate a variety of activities:
-- **Markets and festivals**
-- **Informal gatherings and people-watching**
-- **Children's play and elderly socialization**
-- **Political demonstrations and civic engagement**
+## Desafíos y Oportunidades
 
-### Community Centers and Libraries
-Modern community centers are evolving beyond their traditional roles to become:
-- **Flexible spaces that adapt to different needs**
-- **Technology hubs providing digital access**
-- **Venues for lifelong learning and skill development**
-- **Safe havens during emergencies or extreme weather**
+### Adaptación al Cambio Climático
+La construcción urbana debe considerar cada vez más la resiliencia climática:
+- **Mitigación del efecto isla de calor**
+- **Gestión de inundaciones**
+- **Rutas de evacuación**
+- **Agricultura urbana**
 
-### Parks and Green Spaces
-Urban parks provide essential ecosystem services while creating opportunities for recreation, contemplation, and community gathering. Effective park design considers:
-- **Diverse programming for different age groups**
-- **Seasonal activities and year-round usability**
-- **Biodiversity and habitat creation**
-- **Stormwater management and climate resilience**
+## Conclusión
 
-## Principles of Inclusive Design
-
-Creating truly community-centered spaces requires attention to inclusivity and accessibility:
-
-### Universal Design
-Spaces should be usable by people of all abilities, ages, and backgrounds. This includes:
-- **Physical accessibility through ramps, elevators, and clear sightlines**
-- **Sensory considerations for those with hearing or visual impairments**
-- **Cultural sensitivity in programming and design**
-- **Economic accessibility through free or low-cost activities**
-
-### Safety and Comfort
-Community spaces must feel safe and welcoming to all users:
-- **Good lighting and clear sightlines**
-- **Natural surveillance through strategic positioning**
-- **Comfortable seating and weather protection**
-- **Clean and well-maintained facilities**
-
-## The Role of Participation
-
-Successful community spaces are designed with, not just for, the people who will use them. Participatory design processes involve:
-
-### Community Engagement
-- **Public meetings and design charrettes**
-- **Surveys and focus groups with diverse stakeholders**
-- **Pop-up installations to test design ideas**
-- **Ongoing feedback and adaptation**
-
-### Cultural Responsiveness
-Understanding the specific cultural context of a community is essential:
-- **Recognizing existing social patterns and traditions**
-- **Incorporating local materials and architectural vernacular**
-- **Supporting local businesses and economies**
-- **Celebrating cultural diversity through programming and design**
-
-## Technology and Smart Cities
-
-The integration of technology into urban planning offers new opportunities for community building:
-
-### Digital Infrastructure
-- **Free Wi-Fi in public spaces**
-- **Digital wayfinding and information systems**
-- **Online platforms for community organizing**
-- **Data collection for continuous improvement**
-
-### Responsive Design
-Smart city technologies can make spaces more adaptive to community needs:
-- **Lighting that responds to usage patterns**
-- **Flexible infrastructure for different events**
-- **Real-time feedback systems**
-- **Environmental monitoring for health and comfort**
-
-## Challenges and Opportunities
-
-### Gentrification and Displacement
-Well-designed community spaces can inadvertently contribute to gentrification. Planners must consider:
-- **Affordable housing preservation**
-- **Local business protection**
-- **Community ownership models**
-- **Equitable development strategies**
-
-### Climate Change Adaptation
-Urban planning must increasingly consider climate resilience:
-- **Heat island effect mitigation**
-- **Flood management and permeable surfaces**
-- **Emergency shelter and evacuation routes**
-- **Food security and urban agriculture**
-
-## Case Studies in Success
-
-### Copenhagen's Public Spaces
-Copenhagen has transformed itself into one of the world's most livable cities through strategic investment in:
-- **Extensive cycling infrastructure**
-- **Year-round public space programming**
-- **Climate-adapted design for Nordic conditions**
-- **Strong public-private partnerships**
-
-### Medellín's Urban Acupuncture
-Medellín, Colombia, has used targeted architectural interventions to transform neighborhoods:
-- **Library parks in underserved areas**
-- **Cable car systems connecting hillside communities**
-- **Green corridors along waterways**
-- **Community-led improvement projects**
-
-## The Future of Community-Centered Design
-
-As we look toward the future, several trends are shaping community-centered urban design:
-
-### Tactical Urbanism
-Temporary, low-cost interventions that test ideas before permanent implementation:
-- **Pop-up parks and parklets**
-- **Temporary bike lanes**
-- **Street art and murals**
-- **Community gardens**
-
-### Intergenerational Design
-Spaces that bring together people of all ages:
-- **Playgrounds adjacent to senior seating**
-- **Community workshops and maker spaces**
-- **Intergenerational housing models**
-- **Shared learning environments**
-
-## Conclusion
-
-The future of our cities depends on our ability to create spaces that strengthen community bonds while addressing the challenges of urbanization, climate change, and social inequality. Through thoughtful urban planning and community-centered architectural design, we can build cities that are not just efficient and sustainable, but truly livable for all their inhabitants.
-
-The most successful community spaces are those that grow and evolve with their users, adapting to changing needs while maintaining their essential character as places of gathering, exchange, and belonging. As architects and planners, our role is to provide the physical framework for community life while remaining flexible enough to support the unexpected ways that people will inhabit and transform these spaces.
+El futuro de nuestras ciudades depende de nuestra capacidad para construir espacios que fortalezcan los lazos comunitarios. A través de la construcción y planificación responsable, podemos edificar ciudades que sean eficientes, sostenibles y verdaderamente habitables.
     `,
     author: "Elena Nakamura",
     date: "2024-03-05",
-    readTime: "10 min read",
-    category: "URBAN PLANNING",
+    readTime: "10 min",
+    category: "URBANISMO",
     image: "/src/assets/blog-urban-planning.jpg"
   }
 ];
