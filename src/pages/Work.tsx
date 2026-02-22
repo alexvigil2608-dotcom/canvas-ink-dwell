@@ -5,67 +5,67 @@ import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 
 const Work = () => {
-  const [activeCategory, setActiveCategory] = useState("ALL");
+  const [activeCategory, setActiveCategory] = useState("TODOS");
   const projects = [
     {
       image: project1,
-      title: "MINIMAL RESIDENCE",
-      location: "NEW YORK, 2024",
-      category: "RESIDENTIAL",
-      description: "A contemporary home focusing on light, space, and material honesty. The design emphasizes clean lines and natural materials.",
-      area: "450 SQM",
+      title: "RESIDENCIA MODERNA",
+      location: "2024",
+      category: "RESIDENCIAL",
+      description: "Vivienda contemporánea enfocada en luz, espacio y materiales de primera calidad.",
+      area: "450 M²",
       year: "2024"
     },
     {
       image: project2,
-      title: "CORPORATE HEADQUARTERS",
-      location: "LONDON, 2023",
-      category: "COMMERCIAL",
-      description: "Modern office space emphasizing collaboration and natural elements. Features flexible workspaces and sustainable design principles.",
-      area: "1200 SQM",
+      title: "CENTRO EMPRESARIAL",
+      location: "2023",
+      category: "COMERCIAL",
+      description: "Edificio comercial que prioriza la colaboración y elementos naturales con diseño sostenible.",
+      area: "1200 M²",
       year: "2023"
     },
     {
       image: project3,
-      title: "CULTURAL CENTER",
-      location: "TOKYO, 2023",
+      title: "CENTRO CULTURAL",
+      location: "2023",
       category: "CULTURAL",
-      description: "Public architecture that bridges tradition with contemporary design. A space for community gathering and cultural exchange.",
-      area: "800 SQM",
+      description: "Construcción pública que conecta la tradición con el diseño contemporáneo.",
+      area: "800 M²",
       year: "2023"
     },
     {
       image: project1,
-      title: "URBAN LOFT",
-      location: "BERLIN, 2024",
-      category: "RESIDENTIAL",
-      description: "Industrial heritage meets contemporary living. Raw materials balanced with refined details.",
-      area: "180 SQM",
+      title: "LOFT URBANO",
+      location: "2024",
+      category: "RESIDENCIAL",
+      description: "Herencia industrial y vida contemporánea. Materiales crudos equilibrados con detalles refinados.",
+      area: "180 M²",
       year: "2024"
     },
     {
       image: project2,
-      title: "GALLERY SPACE",
-      location: "PARIS, 2022",
-      category: "CULTURAL",
-      description: "Minimalist gallery designed to showcase art without distraction. Pure white spaces with carefully controlled lighting.",
-      area: "600 SQM",
+      title: "NAVE INDUSTRIAL",
+      location: "2022",
+      category: "INDUSTRIAL",
+      description: "Espacio industrial diseñado con eficiencia operativa y estándares de seguridad de primer nivel.",
+      area: "600 M²",
       year: "2022"
     },
     {
       image: project3,
-      title: "BOUTIQUE HOTEL",
-      location: "MILAN, 2023",
-      category: "HOSPITALITY",
-      description: "Luxury hospitality redefined through architectural restraint. Every detail carefully considered for guest experience.",
-      area: "2400 SQM",
+      title: "HOTEL BOUTIQUE",
+      location: "2023",
+      category: "HOTELERÍA",
+      description: "Hospitalidad de lujo redefinida. Cada detalle cuidadosamente considerado para la experiencia del huésped.",
+      area: "2400 M²",
       year: "2023"
     }
   ];
 
-  const categories = ["ALL", "RESIDENTIAL", "COMMERCIAL", "CULTURAL", "HOSPITALITY"];
+  const categories = ["TODOS", "RESIDENCIAL", "COMERCIAL", "CULTURAL", "INDUSTRIAL", "HOTELERÍA"];
 
-  const filteredProjects = activeCategory === "ALL" 
+  const filteredProjects = activeCategory === "TODOS" 
     ? projects 
     : projects.filter(project => project.category === activeCategory);
 
@@ -79,11 +79,11 @@ const Work = () => {
           <div className="max-w-7xl mx-auto">
             <div className="mb-12">
               <h1 className="text-6xl md:text-8xl font-light text-architectural mb-8">
-                OUR WORK
+                NUESTROS PROYECTOS
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl">
-                A curated selection of our architectural projects, each telling a unique story 
-                through thoughtful design and meticulous attention to detail.
+                Una selección de nuestros proyectos de construcción, cada uno contando una historia 
+                única a través del diseño y la atención meticulosa al detalle.
               </p>
             </div>
           </div>
@@ -133,7 +133,6 @@ const Work = () => {
                     />
                     <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                     
-                    {/* Project Category Badge */}
                     <div className="absolute top-6 left-6 bg-background/90 backdrop-blur-sm px-4 py-2">
                       <span className="text-minimal text-foreground">
                         {project.category}
@@ -157,11 +156,11 @@ const Work = () => {
                     
                     <div className="flex gap-8 pt-4 border-t border-border">
                       <div>
-                        <p className="text-minimal text-muted-foreground mb-1">AREA</p>
+                        <p className="text-minimal text-muted-foreground mb-1">ÁREA</p>
                         <p className="text-foreground">{project.area}</p>
                       </div>
                       <div>
-                        <p className="text-minimal text-muted-foreground mb-1">YEAR</p>
+                        <p className="text-minimal text-muted-foreground mb-1">AÑO</p>
                         <p className="text-foreground">{project.year}</p>
                       </div>
                     </div>
@@ -178,18 +177,18 @@ const Work = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-6xl font-light text-architectural mb-8">
-              Ready to Start
+              ¿Listo Para Iniciar
               <br />
-              Your Project?
+              Tu Proyecto?
             </h2>
             <p className="text-xl text-muted-foreground mb-12">
-              Let's discuss how we can bring your architectural vision to life
+              Hablemos de cómo podemos hacer realidad tu visión de construcción
             </p>
             <a 
-              href="#contact" 
+              href="/contact" 
               className="inline-block text-minimal text-foreground hover:text-muted-foreground transition-colors duration-300 relative group"
             >
-              GET IN TOUCH
+              CONTÁCTANOS
               <span className="absolute bottom-0 left-0 w-full h-px bg-foreground group-hover:bg-muted-foreground transition-colors duration-300"></span>
             </a>
           </div>
