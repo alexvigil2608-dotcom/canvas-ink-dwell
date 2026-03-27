@@ -19,24 +19,24 @@ const Contact = () => {
                 <div className="space-y-8">
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">EMAIL</h3>
-                    <a href="mailto:info@xtratos.com" className="text-xl hover:text-muted-foreground transition-colors duration-300">
-                      info@xtratos.com
+                    <a href="mailto:info@xtratos.es" className="text-xl hover:text-muted-foreground transition-colors duration-300">
+                      info@xtratos.es
                     </a>
                   </div>
                   
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">TELÉFONO</h3>
-                    <a href="tel:+1234567890" className="text-xl hover:text-muted-foreground transition-colors duration-300">
-                      +1 (234) 567-8900
+                    <a href="tel:+34942945054" className="text-xl hover:text-muted-foreground transition-colors duration-300">
+                      +34 942 94 50 54
                     </a>
                   </div>
                   
                   <div>
                     <h3 className="text-minimal text-muted-foreground mb-2">OFICINA</h3>
                     <address className="text-xl not-italic">
-                      123 Avenida Principal
+                      Barrio de Rubo
                       <br />
-                      Ciudad, País
+                      39478, Piélagos (Cantabria)
                     </address>
                   </div>
                 </div>
