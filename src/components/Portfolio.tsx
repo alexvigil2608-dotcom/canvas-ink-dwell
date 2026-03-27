@@ -59,21 +59,16 @@ const Portfolio = () => {
                     loading="lazy"
                     className="w-full h-[70vh] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                </div>
-                
-                <div className="mt-8 grid md:grid-cols-3 gap-8">
-                  <div>
-                    <h4 className="text-2xl font-light text-architectural mb-2">
+                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-500" />
+                  
+                  <div className="absolute bottom-8 left-8 right-8">
+                    <h4 className="text-3xl font-light text-white mb-2">
                       {project.title}
                     </h4>
-                    <p className="text-minimal text-muted-foreground">
+                    <p className="text-sm text-white/70 mb-4">
                       {project.location}
                     </p>
-                  </div>
-                  
-                  <div className="md:col-span-2">
-                    <p className="text-muted-foreground leading-relaxed">
+                    <p className="text-white/80 leading-relaxed max-w-2xl">
                       {project.description}
                     </p>
                   </div>
