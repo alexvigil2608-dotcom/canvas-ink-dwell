@@ -125,29 +125,21 @@ const Work = () => {
                       loading="lazy"
                       className="w-full h-[60vh] object-cover transition-transform duration-700 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                    <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-500" />
                     
-                    <div className="absolute top-6 left-6 bg-background/90 backdrop-blur-sm px-4 py-2">
-                      <span className="text-minimal text-foreground">
-                        {project.category}
-                      </span>
-                    </div>
-                  </div>
-                  
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-2xl lg:text-3xl font-light text-architectural mb-2 group-hover:text-muted-foreground transition-colors duration-500">
+                    <div className="absolute bottom-8 left-8 right-8">
+                      <h3 className="text-3xl lg:text-4xl font-light text-white mb-2">
                         {project.title}
                       </h3>
-                      <p className="text-minimal text-muted-foreground">
+                      <p className="text-sm text-white/70">
                         {project.location}
                       </p>
                     </div>
-                    
-                    <p className="text-muted-foreground leading-relaxed">
-                      {project.description}
-                    </p>
                   </div>
+                  
+                  <p className="text-muted-foreground leading-relaxed">
+                    {project.description}
+                  </p>
                 </div>
               ))}
             </div>
