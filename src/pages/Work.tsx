@@ -1,69 +1,62 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import excavacion from "@/assets/excavacion.jpg";
+import derribos from "@/assets/derribos.jpg";
+import urbanizaciones from "@/assets/urbanizaciones.jpg";
+import obraPublica from "@/assets/obra-publica.jpg";
+import obraPrivada from "@/assets/obra-privada.jpg";
 
 const Work = () => {
   const [activeCategory, setActiveCategory] = useState("TODOS");
   const projects = [
     {
-      image: project1,
-      title: "RESIDENCIA MODERNA",
-      location: "2024",
-      category: "RESIDENCIAL",
-      description: "Vivienda contemporánea enfocada en luz, espacio y materiales de primera calidad.",
-      area: "450 M²",
+      image: excavacion,
+      title: "EXCAVACIÓN",
+      location: "Cantabria",
+      category: "EXCAVACIÓN",
+      description: "Servicios profesionales de excavación con maquinaria de última generación. Preparación de terrenos, movimientos de tierra y vaciados para cimentaciones.",
+      area: "Diversos proyectos",
       year: "2024"
     },
     {
-      image: project2,
-      title: "CENTRO EMPRESARIAL",
-      location: "2023",
-      category: "COMERCIAL",
-      description: "Edificio comercial que prioriza la colaboración y elementos naturales con diseño sostenible.",
-      area: "1200 M²",
-      year: "2023"
-    },
-    {
-      image: project3,
-      title: "CENTRO CULTURAL",
-      location: "2023",
-      category: "CULTURAL",
-      description: "Construcción pública que conecta la tradición con el diseño contemporáneo.",
-      area: "800 M²",
-      year: "2023"
-    },
-    {
-      image: project1,
-      title: "LOFT URBANO",
-      location: "2024",
-      category: "RESIDENCIAL",
-      description: "Herencia industrial y vida contemporánea. Materiales crudos equilibrados con detalles refinados.",
-      area: "180 M²",
+      image: derribos,
+      title: "DERRIBOS",
+      location: "Cantabria",
+      category: "DERRIBOS",
+      description: "Demolición controlada de estructuras con máxima seguridad y eficiencia. Gestión integral de residuos y reciclaje de materiales.",
+      area: "Diversos proyectos",
       year: "2024"
     },
     {
-      image: project2,
-      title: "NAVE INDUSTRIAL",
-      location: "2022",
-      category: "INDUSTRIAL",
-      description: "Espacio industrial diseñado con eficiencia operativa y estándares de seguridad de primer nivel.",
-      area: "600 M²",
-      year: "2022"
+      image: urbanizaciones,
+      title: "URBANIZACIONES",
+      location: "Cantabria",
+      category: "URBANIZACIONES",
+      description: "Desarrollo integral de urbanizaciones: viales, aceras, alumbrado, redes de saneamiento y abastecimiento de agua.",
+      area: "Diversos proyectos",
+      year: "2024"
     },
     {
-      image: project3,
-      title: "HOTEL BOUTIQUE",
-      location: "2023",
-      category: "HOTELERÍA",
-      description: "Hospitalidad de lujo redefinida. Cada detalle cuidadosamente considerado para la experiencia del huésped.",
-      area: "2400 M²",
-      year: "2023"
+      image: obraPublica,
+      title: "OBRA PÚBLICA",
+      location: "Cantabria",
+      category: "OBRA PÚBLICA",
+      description: "Ejecución de proyectos de infraestructura pública: carreteras, puentes, obras hidráulicas y equipamientos municipales.",
+      area: "Diversos proyectos",
+      year: "2024"
+    },
+    {
+      image: obraPrivada,
+      title: "OBRA PRIVADA",
+      location: "Cantabria",
+      category: "OBRA PRIVADA",
+      description: "Construcción de viviendas unifamiliares, edificios residenciales y naves industriales. Proyectos a medida con los más altos estándares de calidad.",
+      area: "Diversos proyectos",
+      year: "2024"
     }
   ];
 
-  const categories = ["TODOS", "RESIDENCIAL", "COMERCIAL", "CULTURAL", "INDUSTRIAL", "HOTELERÍA"];
+  const categories = ["TODOS", "EXCAVACIÓN", "DERRIBOS", "URBANIZACIONES", "OBRA PÚBLICA", "OBRA PRIVADA"];
 
   const filteredProjects = activeCategory === "TODOS" 
     ? projects 
@@ -82,8 +75,8 @@ const Work = () => {
                 NUESTROS PROYECTOS
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl">
-                Una selección de nuestros proyectos de construcción, cada uno contando una historia 
-                única a través del diseño y la atención meticulosa al detalle.
+                Una selección de nuestros trabajos en excavación, derribos, urbanizaciones 
+                y obra pública y privada en Cantabria.
               </p>
             </div>
           </div>
@@ -129,6 +122,7 @@ const Work = () => {
                     <img 
                       src={project.image} 
                       alt={project.title}
+                      loading="lazy"
                       className="w-full h-[60vh] object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -153,17 +147,6 @@ const Work = () => {
                     <p className="text-muted-foreground leading-relaxed">
                       {project.description}
                     </p>
-                    
-                    <div className="flex gap-8 pt-4 border-t border-border">
-                      <div>
-                        <p className="text-minimal text-muted-foreground mb-1">ÁREA</p>
-                        <p className="text-foreground">{project.area}</p>
-                      </div>
-                      <div>
-                        <p className="text-minimal text-muted-foreground mb-1">AÑO</p>
-                        <p className="text-foreground">{project.year}</p>
-                      </div>
-                    </div>
                   </div>
                 </div>
               ))}
