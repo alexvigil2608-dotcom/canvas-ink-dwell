@@ -1,26 +1,40 @@
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import excavacion from "@/assets/excavacion.jpg";
+import derribos from "@/assets/derribos.jpg";
+import urbanizaciones from "@/assets/urbanizaciones.jpg";
+import obraPublica from "@/assets/obra-publica.jpg";
+import obraPrivada from "@/assets/obra-privada.jpg";
 
 const Portfolio = () => {
   const projects = [
     {
-      image: project1,
-      title: "RESIDENCIA MODERNA",
-      location: "2024",
-      description: "Vivienda contemporánea enfocada en luz, espacio y materiales de primera calidad"
+      image: excavacion,
+      title: "EXCAVACIÓN",
+      location: "Cantabria",
+      description: "Servicios profesionales de excavación con maquinaria de última generación"
     },
     {
-      image: project2,
-      title: "CENTRO EMPRESARIAL",
-      location: "2023",
-      description: "Edificio comercial que prioriza la colaboración y elementos naturales"
+      image: derribos,
+      title: "DERRIBOS",
+      location: "Cantabria",
+      description: "Demolición controlada de estructuras con máxima seguridad y eficiencia"
     },
     {
-      image: project3,
-      title: "CENTRO CULTURAL",
-      location: "2023",
-      description: "Construcción pública que conecta la tradición con el diseño contemporáneo"
+      image: urbanizaciones,
+      title: "URBANIZACIONES",
+      location: "Cantabria",
+      description: "Desarrollo integral de urbanizaciones: viales, aceras, alumbrado e infraestructuras"
+    },
+    {
+      image: obraPublica,
+      title: "OBRA PÚBLICA",
+      location: "Cantabria",
+      description: "Ejecución de proyectos de infraestructura pública y equipamientos municipales"
+    },
+    {
+      image: obraPrivada,
+      title: "OBRA PRIVADA",
+      location: "Cantabria",
+      description: "Construcción de viviendas, edificios residenciales y naves industriales a medida"
     }
   ];
 
@@ -42,6 +56,7 @@ const Portfolio = () => {
                   <img 
                     src={project.image} 
                     alt={project.title}
+                    loading="lazy"
                     className="w-full h-[70vh] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
