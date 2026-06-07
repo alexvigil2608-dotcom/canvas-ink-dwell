@@ -5,6 +5,7 @@ import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
+import ISOBadge from "@/components/ISOBadge";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <Portfolio />
       <Testimonials />
       <Contact />
+      <ISOBadge />
     </div>
   );
 };

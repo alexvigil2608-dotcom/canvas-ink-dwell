@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Testimonials from "@/components/Testimonials";
+import ISOBadge from "@/components/ISOBadge";
 import excavacion from "@/assets/excavacion.jpg";
 import derribos from "@/assets/derribos.jpg";
 import urbanizaciones from "@/assets/urbanizaciones.jpg";
@@ -172,6 +173,8 @@ const Work = () => {
           </div>
         </div>
       </section>
+
+      <ISOBadge />
     </div>
   );
 };
