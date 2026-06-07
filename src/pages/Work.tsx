@@ -173,6 +173,8 @@ const Work = () => {
           </div>
         </div>
       </section>
+
+      <ISOBadge />
     </div>
   );
 };
