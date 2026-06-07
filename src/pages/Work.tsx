@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
+import Testimonials from "@/components/Testimonials";
 import excavacion from "@/assets/excavacion.jpg";
 import derribos from "@/assets/derribos.jpg";
 import urbanizaciones from "@/assets/urbanizaciones.jpg";
@@ -146,6 +147,8 @@ const Work = () => {
           </div>
         </div>
       </section>
+
+      <Testimonials />
 
       {/* Call to Action */}
       <section className="py-32 bg-muted">
