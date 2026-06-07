@@ -148,6 +148,8 @@ const Work = () => {
         </div>
       </section>
 
+      <Testimonials />
+
       {/* Call to Action */}
       <section className="py-32 bg-muted">
         <div className="container mx-auto px-6">
