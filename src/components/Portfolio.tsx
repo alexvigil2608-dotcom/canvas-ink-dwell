@@ -49,30 +49,30 @@ const Portfolio = () => {
             </h3>
           </div>
           
-          <div className="space-y-32">
+          <div className="space-y-24">
             {projects.map((project, index) => (
               <div key={index} className="group">
+                <div className="mb-6">
+                  <h4 className="text-3xl font-light text-architectural mb-2">
+                    {project.title}
+                  </h4>
+                  <p className="text-sm text-muted-foreground">
+                    {project.location}
+                  </p>
+                </div>
+
                 <div className="relative overflow-hidden">
-                  <img 
-                    src={project.image} 
+                  <img
+                    src={project.image}
                     alt={project.title}
                     loading="lazy"
-                    className="w-full h-[70vh] object-cover transition-transform duration-700 group-hover:scale-105"
+                    className="w-full h-[55vh] object-cover transition-transform duration-700 group-hover:scale-105"
                   />
-                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-500" />
-                  
-                  <div className="absolute bottom-8 left-8 right-8">
-                    <h4 className="text-3xl font-light text-white mb-2">
-                      {project.title}
-                    </h4>
-                    <p className="text-sm text-white/70 mb-4">
-                      {project.location}
-                    </p>
-                    <p className="text-white/80 leading-relaxed max-w-2xl">
-                      {project.description}
-                    </p>
-                  </div>
                 </div>
+
+                <p className="mt-8 text-muted-foreground leading-relaxed max-w-2xl">
+                  {project.description}
+                </p>
               </div>
             ))}
           </div>

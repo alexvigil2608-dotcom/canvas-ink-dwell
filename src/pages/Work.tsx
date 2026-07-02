@@ -120,23 +120,22 @@ const Work = () => {
             <div className="grid md:grid-cols-2 gap-16 lg:gap-20">
               {filteredProjects.map((project, index) => (
                 <div key={index} className="group cursor-pointer">
+                  <div className="mb-5">
+                    <h3 className="text-3xl lg:text-4xl font-light text-architectural mb-2">
+                      {project.title}
+                    </h3>
+                    <p className="text-sm text-muted-foreground">
+                      {project.location}
+                    </p>
+                  </div>
+
                   <div className="relative overflow-hidden mb-8">
-                    <img 
-                      src={project.image} 
+                    <img
+                      src={project.image}
                       alt={project.title}
                       loading="lazy"
-                      className="w-full h-[60vh] object-cover transition-transform duration-700 group-hover:scale-105"
+                      className="w-full h-[50vh] object-cover transition-transform duration-700 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-500" />
-                    
-                    <div className="absolute bottom-8 left-8 right-8">
-                      <h3 className="text-3xl lg:text-4xl font-light text-white mb-2">
-                        {project.title}
-                      </h3>
-                      <p className="text-sm text-white/70">
-                        {project.location}
-                      </p>
-                    </div>
                   </div>
                   
                   <p className="text-muted-foreground leading-relaxed">
