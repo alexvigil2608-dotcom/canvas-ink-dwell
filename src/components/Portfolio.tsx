@@ -1,37 +1,53 @@
+import ManualCarousel from "@/components/ManualCarousel";
 import excavacion from "@/assets/excavacion.jpg";
+import excavacion1 from "@/assets/excavacion-1.jpg";
+import excavacion2 from "@/assets/excavacion-2.jpg";
+import excavacion3 from "@/assets/excavacion-3.jpg";
 import derribos from "@/assets/derribos.jpg";
+import derribos1 from "@/assets/derribos-1.jpg";
+import derribos2 from "@/assets/derribos-2.jpg";
+import derribos3 from "@/assets/derribos-3.jpg";
 import urbanizaciones from "@/assets/urbanizaciones.jpg";
+import urbanizaciones1 from "@/assets/urbanizaciones-1.jpg";
+import urbanizaciones2 from "@/assets/urbanizaciones-2.jpg";
+import urbanizaciones3 from "@/assets/urbanizaciones-3.jpg";
 import obraPublica from "@/assets/obra-publica.jpg";
+import obraPublica1 from "@/assets/obra-publica-1.jpg";
+import obraPublica2 from "@/assets/obra-publica-2.jpg";
+import obraPublica3 from "@/assets/obra-publica-3.jpg";
 import obraPrivada from "@/assets/obra-privada.jpg";
+import obraPrivada1 from "@/assets/obra-privada-1.jpg";
+import obraPrivada2 from "@/assets/obra-privada-2.jpg";
+import obraPrivada3 from "@/assets/obra-privada-3.jpg";
 
 const Portfolio = () => {
   const projects = [
     {
-      image: excavacion,
+      images: [excavacion, excavacion1, excavacion2, excavacion3],
       title: "EXCAVACIÓN",
       location: "Cantabria",
       description: "Servicios profesionales de excavación con maquinaria de última generación"
     },
     {
-      image: derribos,
+      images: [derribos, derribos1, derribos2, derribos3],
       title: "DERRIBOS",
       location: "Cantabria",
       description: "Demolición controlada de estructuras con máxima seguridad y eficiencia"
     },
     {
-      image: urbanizaciones,
+      images: [urbanizaciones, urbanizaciones1, urbanizaciones2, urbanizaciones3],
       title: "URBANIZACIONES",
       location: "Cantabria",
       description: "Desarrollo integral de urbanizaciones: viales, aceras, alumbrado e infraestructuras"
     },
     {
-      image: obraPublica,
+      images: [obraPublica, obraPublica1, obraPublica2, obraPublica3],
       title: "OBRA PÚBLICA",
       location: "Cantabria",
       description: "Ejecución de proyectos de infraestructura pública y equipamientos municipales"
     },
     {
-      image: obraPrivada,
+      images: [obraPrivada, obraPrivada1, obraPrivada2, obraPrivada3],
       title: "OBRA PRIVADA",
       location: "Cantabria",
       description: "Construcción de viviendas, edificios residenciales y naves industriales a medida"
@@ -61,14 +77,11 @@ const Portfolio = () => {
                   </p>
                 </div>
 
-                <div className="relative overflow-hidden">
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    loading="lazy"
-                    className="w-full h-[55vh] object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                </div>
+                <ManualCarousel
+                  images={project.images}
+                  alt={project.title}
+                  className="w-full h-[55vh]"
+                />
 
                 <p className="mt-8 text-muted-foreground leading-relaxed max-w-2xl">
                   {project.description}
