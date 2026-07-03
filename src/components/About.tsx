@@ -12,6 +12,10 @@ const About = () => {
               
               <div className="space-y-8">
                 <p className="text-lg text-muted-foreground leading-relaxed">
+                  Fundada en 2012 sobre una sólida y prolongada experiencia previa en el sector, Xtratos Gestión y Medio Ambiente SLL es una compañía cántabra en constante expansión que ha consolidado un modelo de negocio moderno, eficiente y con un crecimiento anual ininterrumpido.
+                </p>
+                
+                <p className="text-lg text-muted-foreground leading-relaxed">
                   En Xtratos creemos que la construcción debe mejorar la experiencia humana 
                   respetando el entorno natural. Nos enfocamos en crear espacios 
                   funcionales, duraderos y de alta calidad.
