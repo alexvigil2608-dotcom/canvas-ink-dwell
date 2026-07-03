@@ -22,7 +22,7 @@ const About = () => {
                 </p>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Con más de 10 años de trayectoria, hemos completado más de 200 proyectos 
+                  Con más de 10 años de trayectoria, hemos completado más de 500 proyectos 
                   en los sectores residencial, comercial e industrial. Cada proyecto comienza 
                   con escuchar al cliente y termina con una ejecución impecable.
                 </p>
@@ -56,7 +56,7 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="text-minimal text-muted-foreground mb-2">PROYECTOS</h4>
-                    <p className="text-xl">200+</p>
+                    <p className="text-xl">500+</p>
                   </div>
                 </div>
               </div>
