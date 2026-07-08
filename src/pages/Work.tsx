@@ -78,7 +78,7 @@ const Work = () => {
     }
   ];
 
-  const categories = ["TODOS", "EXCAVACIÓN", "DERRIBOS", "URBANIZACIONES", "OBRA PÚBLICA", "OBRA PRIVADA"];
+  const categories = ["TODOS", "EXCAVACIÓN", "DERRIBOS", "URBANIZACIONES", "OBRA PÚBLICA", "OBRA PRIVADA", "COLABORACIONES"];
 
   const filteredProjects = activeCategory === "TODOS" 
     ? projects 
