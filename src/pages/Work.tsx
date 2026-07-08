@@ -75,6 +75,15 @@ const Work = () => {
       description: "Construcción de viviendas unifamiliares, edificios residenciales y naves industriales. Proyectos a medida con los más altos estándares de calidad.",
       area: "Diversos proyectos",
       year: "2024"
+    },
+    {
+      images: [colaboraciones1.url, colaboraciones2.url, colaboraciones3.url, colaboraciones4.url],
+      title: "COLABORACIONES",
+      location: "Cantabria y España",
+      category: "COLABORACIONES",
+      description: "Trabajos conjuntos con otras empresas del sector. Alianzas estratégicas que nos permiten afrontar proyectos de mayor envergadura con las mejores garantías.",
+      area: "Diversos proyectos",
+      year: "2024"
     }
   ];
 
