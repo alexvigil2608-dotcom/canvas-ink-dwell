@@ -23,6 +23,10 @@ import obraPrivada from "@/assets/obra-privada.jpg";
 import obraPrivada1 from "@/assets/obra-privada-1.jpg";
 import obraPrivada2 from "@/assets/obra-privada-2.jpg";
 import obraPrivada3 from "@/assets/obra-privada-3.jpg";
+import colaboraciones1 from "@/assets/colaboraciones-1.jpg";
+import colaboraciones2 from "@/assets/colaboraciones-2.jpg";
+import colaboraciones3 from "@/assets/colaboraciones-3.jpg";
+import colaboraciones4 from "@/assets/colaboraciones-4.jpg";
 
 const Work = () => {
   const [activeCategory, setActiveCategory] = useState("TODOS");
@@ -71,10 +75,19 @@ const Work = () => {
       description: "Construcción de viviendas unifamiliares, edificios residenciales y naves industriales. Proyectos a medida con los más altos estándares de calidad.",
       area: "Diversos proyectos",
       year: "2024"
+    },
+    {
+      images: [colaboraciones1, colaboraciones2, colaboraciones3, colaboraciones4],
+      title: "COLABORACIONES",
+      location: "Cantabria y España",
+      category: "COLABORACIONES",
+      description: "Trabajos conjuntos con otras empresas del sector. Alianzas estratégicas que nos permiten afrontar proyectos de mayor envergadura con las mejores garantías.",
+      area: "Diversos proyectos",
+      year: "2024"
     }
   ];
 
-  const categories = ["TODOS", "EXCAVACIÓN", "DERRIBOS", "URBANIZACIONES", "OBRA PÚBLICA", "OBRA PRIVADA"];
+  const categories = ["TODOS", "EXCAVACIÓN", "DERRIBOS", "URBANIZACIONES", "OBRA PÚBLICA", "OBRA PRIVADA", "COLABORACIONES"];
 
   const filteredProjects = activeCategory === "TODOS" 
     ? projects 
