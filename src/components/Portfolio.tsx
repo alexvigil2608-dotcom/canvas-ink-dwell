@@ -1,4 +1,8 @@
 import ManualCarousel from "@/components/ManualCarousel";
+import colaboraciones1 from "@/assets/colaboraciones-1.jpg";
+import colaboraciones2 from "@/assets/colaboraciones-2.jpg";
+import colaboraciones3 from "@/assets/colaboraciones-3.jpg";
+import colaboraciones4 from "@/assets/colaboraciones-4.jpg";
 import excavacion from "@/assets/excavacion.jpg";
 import excavacion1 from "@/assets/excavacion-1.jpg";
 import excavacion2 from "@/assets/excavacion-2.jpg";
@@ -51,6 +55,12 @@ const Portfolio = () => {
       title: "OBRA PRIVADA",
       location: "Cantabria",
       description: "Construcción de viviendas, edificios residenciales y naves industriales a medida"
+    },
+    {
+      images: [colaboraciones1, colaboraciones2, colaboraciones3, colaboraciones4],
+      title: "COLABORACIONES",
+      location: "Cantabria y España",
+      description: "Trabajos conjuntos con otras empresas del sector para proyectos de mayor envergadura"
     }
   ];
 
