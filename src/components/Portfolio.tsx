@@ -57,7 +57,7 @@ const Portfolio = () => {
       description: "Construcción de viviendas, edificios residenciales y naves industriales a medida"
     },
     {
-      images: [colaboraciones1, colaboraciones2, colaboraciones3, colaboraciones4],
+      images: [colaboraciones1.url, colaboraciones2, colaboraciones3, colaboraciones4],
       title: "COLABORACIONES",
       location: "Cantabria y España",
       description: "Trabajos conjuntos con otras empresas del sector para proyectos de mayor envergadura"
