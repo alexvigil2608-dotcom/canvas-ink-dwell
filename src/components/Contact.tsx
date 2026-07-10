@@ -30,9 +30,9 @@ const Contact = () => {
                 <div>
                   <h4 className="text-minimal text-muted-foreground mb-2">OFICINA</h4>
                   <address className="text-xl not-italic">
-                    Barrio de Rubo
+                    Barrio de Rubo S/N. Polígono La Helguera
                     <br />
-                    39478, Piélagos (Cantabria)
+                    39478, Boo de Piélagos (Cantabria)
                   </address>
                 </div>
               </div>
