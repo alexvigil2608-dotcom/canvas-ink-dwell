@@ -68,7 +68,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      images: [obraPrivada, obraPrivada1, obraPrivada2, obraPrivada3],
+      images: [obraPrivada.url, obraPrivada1.url, obraPrivada2.url, obraPrivada3.url],
       title: "OBRA PRIVADA",
       location: "Cantabria",
       category: "OBRA PRIVADA",
