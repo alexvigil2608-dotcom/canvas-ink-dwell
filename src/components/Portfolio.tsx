@@ -7,10 +7,10 @@ import excavacion1 from "@/assets/excavacion-1.jpg.asset.json";
 import excavacion2 from "@/assets/excavacion-2.jpg.asset.json";
 import excavacion3 from "@/assets/excavacion-3.jpg.asset.json";
 import excavacion4 from "@/assets/excavacion-4.jpg.asset.json";
-import derribos from "@/assets/derribos.jpg";
-import derribos1 from "@/assets/derribos-1.jpg";
-import derribos2 from "@/assets/derribos-2.jpg";
-import derribos3 from "@/assets/derribos-3.jpg";
+import derribos from "@/assets/derribos-1.jpg.asset.json";
+import derribos1 from "@/assets/derribos-2.jpg.asset.json";
+import derribos2 from "@/assets/derribos-3.jpg.asset.json";
+import derribos3 from "@/assets/derribos-4.jpg.asset.json";
 import urbanizaciones from "@/assets/urbanizaciones.jpg";
 import urbanizaciones1 from "@/assets/urbanizaciones-1.jpg";
 import urbanizaciones2 from "@/assets/urbanizaciones-2.jpg";
@@ -33,7 +33,7 @@ const Portfolio = () => {
       description: "Servicios profesionales de excavación con maquinaria de última generación"
     },
     {
-      images: [derribos, derribos1, derribos2, derribos3],
+      images: [derribos.url, derribos1.url, derribos2.url, derribos3.url],
       title: "DERRIBOS",
       location: "Cantabria",
       description: "Demolición controlada de estructuras con máxima seguridad y eficiencia"
