@@ -11,10 +11,10 @@ import derribos from "@/assets/derribos-1.jpg.asset.json";
 import derribos1 from "@/assets/derribos-2.jpg.asset.json";
 import derribos2 from "@/assets/derribos-3.jpg.asset.json";
 import derribos3 from "@/assets/derribos-4.jpg.asset.json";
-import urbanizaciones from "@/assets/urbanizaciones.jpg";
-import urbanizaciones1 from "@/assets/urbanizaciones-1.jpg";
-import urbanizaciones2 from "@/assets/urbanizaciones-2.jpg";
-import urbanizaciones3 from "@/assets/urbanizaciones-3.jpg";
+import urbanizaciones from "@/assets/urbanizaciones-1.jpg.asset.json";
+import urbanizaciones1 from "@/assets/urbanizaciones-2.jpg.asset.json";
+import urbanizaciones2 from "@/assets/urbanizaciones-3.jpg.asset.json";
+import urbanizaciones3 from "@/assets/urbanizaciones-4.jpg.asset.json";
 import obraPublica from "@/assets/obra-publica.jpg";
 import obraPublica1 from "@/assets/obra-publica-1.jpg";
 import obraPublica2 from "@/assets/obra-publica-2.jpg";
@@ -50,7 +50,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      images: [urbanizaciones, urbanizaciones1, urbanizaciones2, urbanizaciones3],
+      images: [urbanizaciones.url, urbanizaciones1.url, urbanizaciones2.url, urbanizaciones3.url],
       title: "URBANIZACIONES",
       location: "Cantabria",
       category: "URBANIZACIONES",
