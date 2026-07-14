@@ -41,7 +41,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      images: [derribos, derribos1, derribos2, derribos3],
+      images: [derribos.url, derribos1.url, derribos2.url, derribos3.url],
       title: "DERRIBOS",
       location: "Cantabria",
       category: "DERRIBOS",
