@@ -33,7 +33,7 @@ const Portfolio = () => {
       description: "Servicios profesionales de excavación con maquinaria de última generación"
     },
     {
-      images: [derribos, derribos1, derribos2, derribos3],
+      images: [derribos.url, derribos1.url, derribos2.url, derribos3.url],
       title: "DERRIBOS",
       location: "Cantabria",
       description: "Demolición controlada de estructuras con máxima seguridad y eficiencia"
