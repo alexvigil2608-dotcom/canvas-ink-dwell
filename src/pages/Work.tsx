@@ -32,7 +32,7 @@ const Work = () => {
   const [activeCategory, setActiveCategory] = useState("TODOS");
   const projects = [
     {
-      images: [excavacion, excavacion1, excavacion2, excavacion3],
+      images: [excavacion1.url, excavacion2.url, excavacion3.url, excavacion4.url],
       title: "EXCAVACIÓN",
       location: "Cantabria",
       category: "EXCAVACIÓN",
