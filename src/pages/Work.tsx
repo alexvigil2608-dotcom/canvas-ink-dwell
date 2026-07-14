@@ -3,10 +3,10 @@ import Navigation from "@/components/Navigation";
 import Testimonials from "@/components/Testimonials";
 import ISOBadge from "@/components/ISOBadge";
 import ProjectCarousel from "@/components/ProjectCarousel";
-import excavacion from "@/assets/excavacion.jpg";
-import excavacion1 from "@/assets/excavacion-1.jpg";
-import excavacion2 from "@/assets/excavacion-2.jpg";
-import excavacion3 from "@/assets/excavacion-3.jpg";
+import excavacion1 from "@/assets/excavacion-1.jpg.asset.json";
+import excavacion2 from "@/assets/excavacion-2.jpg.asset.json";
+import excavacion3 from "@/assets/excavacion-3.jpg.asset.json";
+import excavacion4 from "@/assets/excavacion-4.jpg.asset.json";
 import derribos from "@/assets/derribos.jpg";
 import derribos1 from "@/assets/derribos-1.jpg";
 import derribos2 from "@/assets/derribos-2.jpg";
@@ -32,7 +32,7 @@ const Work = () => {
   const [activeCategory, setActiveCategory] = useState("TODOS");
   const projects = [
     {
-      images: [excavacion, excavacion1, excavacion2, excavacion3],
+      images: [excavacion1.url, excavacion2.url, excavacion3.url, excavacion4.url],
       title: "EXCAVACIÓN",
       location: "Cantabria",
       category: "EXCAVACIÓN",

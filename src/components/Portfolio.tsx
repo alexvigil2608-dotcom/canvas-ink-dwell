@@ -3,10 +3,10 @@ import colaboraciones1 from "@/assets/colaboraciones-1.jpg.asset.json";
 import colaboraciones2 from "@/assets/colaboraciones-2.jpg";
 import colaboraciones3 from "@/assets/colaboraciones-3.jpg";
 import colaboraciones4 from "@/assets/colaboraciones-4.jpg";
-import excavacion from "@/assets/excavacion.jpg";
-import excavacion1 from "@/assets/excavacion-1.jpg";
-import excavacion2 from "@/assets/excavacion-2.jpg";
-import excavacion3 from "@/assets/excavacion-3.jpg";
+import excavacion1 from "@/assets/excavacion-1.jpg.asset.json";
+import excavacion2 from "@/assets/excavacion-2.jpg.asset.json";
+import excavacion3 from "@/assets/excavacion-3.jpg.asset.json";
+import excavacion4 from "@/assets/excavacion-4.jpg.asset.json";
 import derribos from "@/assets/derribos.jpg";
 import derribos1 from "@/assets/derribos-1.jpg";
 import derribos2 from "@/assets/derribos-2.jpg";
@@ -27,7 +27,7 @@ import obraPrivada3 from "@/assets/obra-privada-3.jpg";
 const Portfolio = () => {
   const projects = [
     {
-      images: [excavacion, excavacion1, excavacion2, excavacion3],
+      images: [excavacion1.url, excavacion2.url, excavacion3.url, excavacion4.url],
       title: "EXCAVACIÓN",
       location: "Cantabria",
       description: "Servicios profesionales de excavación con maquinaria de última generación"
