@@ -39,7 +39,7 @@ const Portfolio = () => {
       description: "Demolición controlada de estructuras con máxima seguridad y eficiencia"
     },
     {
-      images: [urbanizaciones, urbanizaciones1, urbanizaciones2, urbanizaciones3],
+      images: [urbanizaciones.url, urbanizaciones1.url, urbanizaciones2.url, urbanizaciones3.url],
       title: "URBANIZACIONES",
       location: "Cantabria",
       description: "Desarrollo integral de urbanizaciones: viales, aceras, alumbrado e infraestructuras"
