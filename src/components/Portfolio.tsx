@@ -27,7 +27,7 @@ import obraPrivada3 from "@/assets/obra-privada-3.jpg";
 const Portfolio = () => {
   const projects = [
     {
-      images: [excavacion, excavacion1, excavacion2, excavacion3],
+      images: [excavacion1.url, excavacion2.url, excavacion3.url, excavacion4.url],
       title: "EXCAVACIÓN",
       location: "Cantabria",
       description: "Servicios profesionales de excavación con maquinaria de última generación"
