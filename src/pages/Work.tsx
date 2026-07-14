@@ -15,14 +15,14 @@ import urbanizaciones from "@/assets/urbanizaciones-1.jpg.asset.json";
 import urbanizaciones1 from "@/assets/urbanizaciones-2.jpg.asset.json";
 import urbanizaciones2 from "@/assets/urbanizaciones-3.jpg.asset.json";
 import urbanizaciones3 from "@/assets/urbanizaciones-4.jpg.asset.json";
-import obraPublica from "@/assets/obra-publica.jpg";
-import obraPublica1 from "@/assets/obra-publica-1.jpg";
-import obraPublica2 from "@/assets/obra-publica-2.jpg";
-import obraPublica3 from "@/assets/obra-publica-3.jpg";
-import obraPrivada from "@/assets/obra-privada.jpg";
-import obraPrivada1 from "@/assets/obra-privada-1.jpg";
-import obraPrivada2 from "@/assets/obra-privada-2.jpg";
-import obraPrivada3 from "@/assets/obra-privada-3.jpg";
+import obraPublica from "@/assets/obra-publica-1.jpg.asset.json";
+import obraPublica1 from "@/assets/obra-publica-2.jpg.asset.json";
+import obraPublica2 from "@/assets/obra-publica-3.jpg.asset.json";
+import obraPublica3 from "@/assets/obra-publica-4.jpg.asset.json";
+import obraPrivada from "@/assets/obra-privada-1.jpg.asset.json";
+import obraPrivada1 from "@/assets/obra-privada-2.jpg.asset.json";
+import obraPrivada2 from "@/assets/obra-privada-3.jpg.asset.json";
+import obraPrivada3 from "@/assets/obra-privada-4.jpg.asset.json";
 import colaboraciones1 from "@/assets/colaboraciones-1.jpg.asset.json";
 import colaboraciones2 from "@/assets/colaboraciones-2.jpg";
 import colaboraciones3 from "@/assets/colaboraciones-3.jpg";
@@ -59,7 +59,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      images: [obraPublica, obraPublica1, obraPublica2, obraPublica3],
+      images: [obraPublica.url, obraPublica1.url, obraPublica2.url, obraPublica3.url],
       title: "OBRA PÚBLICA",
       location: "Cantabria",
       category: "OBRA PÚBLICA",
@@ -68,7 +68,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      images: [obraPrivada, obraPrivada1, obraPrivada2, obraPrivada3],
+      images: [obraPrivada.url, obraPrivada1.url, obraPrivada2.url, obraPrivada3.url],
       title: "OBRA PRIVADA",
       location: "Cantabria",
       category: "OBRA PRIVADA",
