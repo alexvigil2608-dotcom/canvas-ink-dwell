@@ -45,13 +45,13 @@ const Portfolio = () => {
       description: "Desarrollo integral de urbanizaciones: viales, aceras, alumbrado e infraestructuras"
     },
     {
-      images: [obraPublica, obraPublica1, obraPublica2, obraPublica3],
+      images: [obraPublica.url, obraPublica1.url, obraPublica2.url, obraPublica3.url],
       title: "OBRA PÚBLICA",
       location: "Cantabria",
       description: "Ejecución de proyectos de infraestructura pública y equipamientos municipales"
     },
     {
-      images: [obraPrivada, obraPrivada1, obraPrivada2, obraPrivada3],
+      images: [obraPrivada.url, obraPrivada1.url, obraPrivada2.url, obraPrivada3.url],
       title: "OBRA PRIVADA",
       location: "Cantabria",
       description: "Construcción de viviendas, edificios residenciales y naves industriales a medida"
