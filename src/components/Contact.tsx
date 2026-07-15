@@ -1,3 +1,5 @@
+import { XTRATOS_INSTAGRAM_URL } from "@/constants/social";
+
 const Contact = () => {
   return (
     <section id="contact" className="py-32 bg-background">
@@ -42,7 +44,7 @@ const Contact = () => {
               <div>
                 <h4 className="text-minimal text-muted-foreground mb-6">SÍGUENOS</h4>
                 <div className="space-y-4">
-                  <a href="https://www.instagram.com/xtratos.sll?igsh=MWkyZXB3ZTVkeG52cg%3D%3D" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                  <a href={XTRATOS_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
                     Instagram
                   </a>
                   <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
