@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import { XTRATOS_INSTAGRAM_URL } from "@/constants/social";
 
 const Contact = () => {
   return (

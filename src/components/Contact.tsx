@@ -1,3 +1,5 @@
+import { XTRATOS_INSTAGRAM_URL } from "@/constants/social";
+
 const Contact = () => {
   return (
     <section id="contact" className="py-32 bg-background">
