@@ -24,7 +24,7 @@ import obraPrivada1 from "@/assets/obra-privada-2.jpg.asset.json";
 import obraPrivada2 from "@/assets/obra-privada-3.jpg.asset.json";
 import obraPrivada3 from "@/assets/obra-privada-4.jpg.asset.json";
 import colaboraciones1 from "@/assets/colaboraciones-1.jpg.asset.json";
-import colaboraciones2 from "@/assets/colaboraciones-2.jpg";
+import colaboraciones2 from "@/assets/colaboraciones-2.jpg.asset.json";
 import colaboraciones3 from "@/assets/colaboraciones-3.jpg";
 import colaboraciones4 from "@/assets/colaboraciones-4.jpg";
 
@@ -77,7 +77,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      images: [colaboraciones1.url, colaboraciones2, colaboraciones3, colaboraciones4],
+      images: [colaboraciones1.url, colaboraciones2.url, colaboraciones3, colaboraciones4],
       title: "COLABORACIONES",
       location: "Cantabria y España",
       category: "COLABORACIONES",
