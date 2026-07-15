@@ -46,7 +46,7 @@ const Contact = () => {
                 <div>
                   <h3 className="text-minimal text-muted-foreground mb-6">SÍGUENOS</h3>
                   <div className="space-y-4">
-                    <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                    <a href="https://www.instagram.com/xtratos.sll?igsh=MWkyZXB3ZTVkeG52cg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
                       Instagram
                     </a>
                     <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
