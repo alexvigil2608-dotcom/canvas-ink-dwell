@@ -1,6 +1,6 @@
 import ManualCarousel from "@/components/ManualCarousel";
 import colaboraciones1 from "@/assets/colaboraciones-1.jpg.asset.json";
-import colaboraciones2 from "@/assets/colaboraciones-2.jpg";
+import colaboraciones2 from "@/assets/colaboraciones-2.jpg.asset.json";
 import colaboraciones3 from "@/assets/colaboraciones-3.jpg";
 import colaboraciones4 from "@/assets/colaboraciones-4.jpg";
 import excavacion1 from "@/assets/excavacion-1.jpg.asset.json";
