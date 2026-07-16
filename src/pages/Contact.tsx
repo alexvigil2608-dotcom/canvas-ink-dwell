@@ -1,5 +1,5 @@
 import Navigation from "@/components/Navigation";
-import { XTRATOS_INSTAGRAM_URL, XTRATOS_FACEBOOK_URL } from "@/constants/social";
+import { XTRATOS_INSTAGRAM_URL, XTRATOS_FACEBOOK_URL, XTRATOS_LINKEDIN_URL } from "@/constants/social";
 
 const Contact = () => {
   return (
