@@ -77,7 +77,7 @@ const Work = () => {
       year: "2024"
     },
     {
-      images: [colaboraciones1.url, colaboraciones2.url, colaboraciones3, colaboraciones4],
+      images: [colaboraciones1.url, colaboraciones2.url, colaboraciones3.url, colaboraciones4.url],
       title: "COLABORACIONES",
       location: "Cantabria y España",
       category: "COLABORACIONES",
