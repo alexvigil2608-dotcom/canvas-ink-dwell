@@ -66,15 +66,33 @@ const Contact = () => {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-minimal text-muted-foreground mb-6">SÍGUENOS</h3>
-                  <div className="space-y-4">
-                    <a href={XTRATOS_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      Instagram
+                  <div className="flex items-center space-x-6">
+                    <a
+                      href={XTRATOS_INSTAGRAM_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Instagram de Xtratos"
+                      className="text-foreground hover:text-muted-foreground transition-colors duration-300"
+                    >
+                      <InstagramIcon />
                     </a>
-                    <a href={XTRATOS_LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      LinkedIn
+                    <a
+                      href={XTRATOS_FACEBOOK_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="Facebook de Xtratos"
+                      className="text-foreground hover:text-muted-foreground transition-colors duration-300"
+                    >
+                      <FacebookIcon />
                     </a>
-                    <a href={XTRATOS_FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
-                      Facebook
+                    <a
+                      href={XTRATOS_LINKEDIN_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="LinkedIn de Xtratos"
+                      className="text-foreground hover:text-muted-foreground transition-colors duration-300"
+                    >
+                      <LinkedInIcon />
                     </a>
                   </div>
                 </div>
