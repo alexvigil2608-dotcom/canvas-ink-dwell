@@ -120,6 +120,37 @@ const Navigation = () => {
             <div className="pt-4 border-t border-border">
               <ThemeToggle />
             </div>
+            
+            {/* Mobile Social Icons */}
+            <div className="flex items-center space-x-4 pt-4">
+              <a
+                href={XTRATOS_INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram de Xtratos"
+                className="text-muted-foreground hover:text-foreground transition-colors duration-300"
+              >
+                <InstagramIcon />
+              </a>
+              <a
+                href={XTRATOS_FACEBOOK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook de Xtratos"
+                className="text-muted-foreground hover:text-foreground transition-colors duration-300"
+              >
+                <FacebookIcon />
+              </a>
+              <a
+                href={XTRATOS_LINKEDIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn de Xtratos"
+                className="text-muted-foreground hover:text-foreground transition-colors duration-300"
+              >
+                <LinkedInIcon />
+              </a>
+            </div>
           </div>
         </div>
       )}
