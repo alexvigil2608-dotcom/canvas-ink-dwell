@@ -1,4 +1,4 @@
-import { XTRATOS_INSTAGRAM_URL, XTRATOS_FACEBOOK_URL } from "@/constants/social";
+import { XTRATOS_INSTAGRAM_URL, XTRATOS_FACEBOOK_URL, XTRATOS_LINKEDIN_URL } from "@/constants/social";
 
 const Contact = () => {
   return (
@@ -47,7 +47,7 @@ const Contact = () => {
                   <a href={XTRATOS_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
                     Instagram
                   </a>
-                  <a href="#" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
+                  <a href={XTRATOS_LINKEDIN_URL} target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
                     LinkedIn
                   </a>
                   <a href={XTRATOS_FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="block text-xl hover:text-muted-foreground transition-colors duration-300">
