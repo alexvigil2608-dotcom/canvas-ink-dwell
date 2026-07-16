@@ -1,8 +1,8 @@
 import ManualCarousel from "@/components/ManualCarousel";
 import colaboraciones1 from "@/assets/colaboraciones-1.jpg.asset.json";
 import colaboraciones2 from "@/assets/colaboraciones-2.jpg.asset.json";
-import colaboraciones3 from "@/assets/colaboraciones-3.jpg";
-import colaboraciones4 from "@/assets/colaboraciones-4.jpg";
+import colaboraciones3 from "@/assets/colaboraciones-3.png.asset.json";
+import colaboraciones4 from "@/assets/colaboraciones-4.jpg.asset.json";
 import excavacion1 from "@/assets/excavacion-1.jpg.asset.json";
 import excavacion2 from "@/assets/excavacion-2.jpg.asset.json";
 import excavacion3 from "@/assets/excavacion-3.jpg.asset.json";
@@ -57,7 +57,7 @@ const Portfolio = () => {
       description: "Construcción de viviendas, edificios residenciales y naves industriales a medida"
     },
     {
-      images: [colaboraciones1.url, colaboraciones2.url, colaboraciones3, colaboraciones4],
+      images: [colaboraciones1.url, colaboraciones2.url, colaboraciones3.url, colaboraciones4.url],
       title: "COLABORACIONES",
       location: "Cantabria y España",
       description: "Trabajos conjuntos con otras empresas del sector para proyectos de mayor envergadura"
