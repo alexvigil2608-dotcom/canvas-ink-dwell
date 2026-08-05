@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-portada.png.asset.json";
+import heroImage from "@/assets/hero-portada-new.asset.json";
 import logo from "@/assets/xtratos-logo.png.asset.json";
 
 const Hero = () => {
