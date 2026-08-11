@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 
 const Services = () => {
   const services = [
@@ -59,6 +60,7 @@ const Services = () => {
           </div>
         </div>
       </section>
+    <Footer />
     </div>
   );
 };
