@@ -140,7 +140,7 @@ const Blog = () => {
           </div>
         </div>
       </section>
-    <Footer />
+      <Footer />
     </div>
   );
 };

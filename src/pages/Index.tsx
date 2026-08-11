@@ -19,7 +19,7 @@ const Index = () => {
       <Testimonials />
       <Contact />
       <ISOBadge />
-    <Footer />
+      <Footer />
     </div>
   );
 };

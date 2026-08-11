@@ -201,7 +201,7 @@ const Work = () => {
       </section>
 
       <ISOBadge />
-    <Footer />
+      <Footer />
     </div>
   );
 };
