@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import Testimonials from "@/components/Testimonials";
 import ISOBadge from "@/components/ISOBadge";
 import ProjectCarousel from "@/components/ProjectCarousel";
@@ -200,6 +201,7 @@ const Work = () => {
       </section>
 
       <ISOBadge />
+      <Footer />
     </div>
   );
 };

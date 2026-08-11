@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
 import { XTRATOS_INSTAGRAM_URL, XTRATOS_FACEBOOK_URL, XTRATOS_LINKEDIN_URL } from "@/constants/social";
 
 const InstagramIcon = () => (
@@ -109,6 +110,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
