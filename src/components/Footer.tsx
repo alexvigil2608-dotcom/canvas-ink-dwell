@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { openCookieBanner } from "@/components/CookieConsent";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -29,6 +30,13 @@ const Footer = () => {
             >
               POLÍTICA DE COOKIES
             </Link>
+            <button
+              type="button"
+              onClick={openCookieBanner}
+              className="text-xs tracking-wider text-muted-foreground hover:text-foreground transition-colors duration-300"
+            >
+              CONFIGURAR COOKIES
+            </button>
           </nav>
         </div>
       </div>
