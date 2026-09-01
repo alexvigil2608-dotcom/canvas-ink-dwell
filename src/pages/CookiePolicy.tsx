@@ -80,7 +80,7 @@ const CookiePolicy = () => {
         </p>
       </LegalSection>
 
-      <LegalSection heading="3. Cómo eliminar o bloquear estos datos">
+      <LegalSection heading="5. Cómo eliminar o bloquear estos datos">
         <p>
           El usuario puede borrar en cualquier momento el almacenamiento local y las
           cookies desde la configuración de su navegador:
@@ -97,7 +97,7 @@ const CookiePolicy = () => {
         </p>
       </LegalSection>
 
-      <LegalSection heading="4. Cambios en esta política">
+      <LegalSection heading="6. Cambios en esta política">
         <p>
           Xtratos puede modificar esta política de cookies si en el futuro se
           incorporan nuevos servicios o herramientas al sitio web. Se recomienda
